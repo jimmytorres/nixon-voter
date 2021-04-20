@@ -6,27 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vote Here</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="nixons-baby.js" ></script>
+    
 </head>
 <body onload="first()">
     <h1 id="fadeIn">Please Vote!</h1>
-
+    <h1 id="demo"></h1>
     <div class="parent">
         <div class="div1">
             <figure>
-            <img src="nixon.jpeg" alt="President Nixon" width="350px" length="350px">
+            <img id="papa" src="nixon.jpeg" alt="President Nixon" width="350px" length="350px">
             <br>
             <button id="goodButton">Vote Nixon</button>
             </figure>
         </div>
         <div class="div2"> 
-           <figure>
-            <img src="mcgovern.jpeg" alt="mcgovern" >
+           <figure class="badGuy">
+            <img id="villain" src="mcgovern.jpeg" alt="mcgovern" >
             <br>
-            <button id="badButton" onmousemove="noGo()" onmouseout="revert()">Vote McGovern</button>
+            <button id="badButton" onmousemove="noGo()" onmouseout="revert()" >Vote McGovern</button>
             </figure> 
         </div>
     </div>
 
+<script src="nixons-baby.js" ></script>
 </body>
 </html>

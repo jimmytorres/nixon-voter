@@ -14,3 +14,7 @@
     transition: 3s opacity;
     text-align: center;
 }
+
+.badGuy{
+    float: right;
+}
