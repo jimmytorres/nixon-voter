@@ -18,3 +18,17 @@
 .badGuy{
     float: right;
 }
+
+#gg{
+    position: absoulute;
+    transition: all 60s;
+}
+
+#badButton{
+    position: absolute; 
+    
+}
+
+body{
+    position: relative;
+}
