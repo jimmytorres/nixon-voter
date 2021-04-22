@@ -6,7 +6,7 @@ let voter = {
     LoserNote: "that",
 }
 
-// 2) Use an onload listener
+// 2) Use an onload listener & 11) Custom cursor
 function first(){
     window.setTimeout(fadeIn, 1000);
     body.style.cursor = "pointer"
@@ -25,7 +25,7 @@ function revert(){
     bb.innerHTML = "Vote McGovern";
 }
 
-// 4) Use onclick listener
+// 4) Use onclick listener & 10) add and remove add event listener
 function negate(){
     alert(`uh oh loser alert lets not do ${voter.LoserNote}`);
     document.getElementById("papa").src = "vishawn.jpeg";
@@ -116,7 +116,7 @@ body.onclick = function(event){
 }
 
 
-// 8) Using "this" for onclick events
+// 9) Use a loop to create multiple elements at once
 
 
 function end(){
